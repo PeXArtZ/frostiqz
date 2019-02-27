@@ -1,0 +1,32 @@
+{
+  "name": "frostiqz",
+  "version": "1.0.0",
+  "description": "NextJS PWA für Frostiqz Teamspeak",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeXArtZ/frostiqz.git"
+  },
+  "author": "Tobias Voigt & Uwe Barthel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeXArtZ/frostiqz/issues"
+  },
+  "homepage": "https://github.com/PeXArtZ/frostiqz#readme",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^8.0.3",
+    "next-page-transitions": "^1.0.0-alpha.6",
+    "node-sass": "^4.11.0",
+    "nprogress": "^0.2.0",
+    "particles.js": "^2.0.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
